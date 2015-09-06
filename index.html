@@ -1,0 +1,112 @@
+<html>
+	<title>Login</title>
+	<head>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<script src="jq/jquery-1.11.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("#mark").click(function(){
+					$("form").toggle(100);
+				});
+
+			});
+		</script>
+		<style>
+			input{
+				text-align:center;
+				padding:4px;
+				width:260px;
+				height:38px;
+				font-size:14px;
+				border:none;
+				border-bottom:1px solid #c0c0c0;
+
+			}
+			input:focus{
+				outline:none;
+				border-bottom:2px solid #a0a0a0;
+				transition:.2s;
+			}
+			input:nth-child(3){
+				margin-top:15px;
+			}
+			button:nth-child(5){
+				width:260px;
+				margin-top:50px;
+				border-radius:0;
+				font-weight:bold;
+			}
+			form{
+				border:1px solid #e0e0e0;
+				width:300px;
+				padding:15px 20px 30px 20px;
+				margin:20 auto 0 auto;
+				display:none;
+			}
+			h3{
+				border:1px solid #e0e0e0;
+				width:323px;
+				margin:20 auto 0 auto;
+				padding:15px 5px;
+				color:#003300;
+			}
+			h1,h3{
+				font-family:times new roman;
+				font-weight:bold;
+				margin:0 auto;
+			}
+			h1{
+				width:389px;
+				color:white;
+				background-color:#003300;
+				padding:10px
+			}
+			div{
+				border:1px solid #c0c0c0;
+				width:390px;
+				text-align:center;
+				margin:110px auto 0 auto;
+				background:white;
+				padding:0 0 20px 0;
+			}
+			body{
+				background:#e0e0e0;
+			}
+			#mark{
+				font-size:26px;
+				color:#a0a0a0;
+				opacity:.4;
+				cursor:pointer;
+				margin-top:12px;
+			}
+			#mark:hover{
+				color:red;
+				opacity:1;
+				transition:color .9s;
+			}
+			
+			
+		</style>
+	</head>
+		<body>
+			
+			<div>
+				<h1>LORMA COLLEGES</h1><br>
+				<h3>SCHOOL BUS <br>TRACKING SYSTEM
+				<form action="main_lorma.html">
+				<input type="text" placeholder="USER"><br/>
+				<input type="text" placeholder="PASSWORD"><br/>
+				<button type="submit" class="btn btn-success">Login</button>
+			</form>
+
+				</h3>
+							<span class="glyphicon glyphicon-map-marker" aria-hidden="true" id="mark"></span>
+			</div>
+		</body>
+
+
+
+
+</html>
