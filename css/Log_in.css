@@ -1,0 +1,125 @@
+
+#username{
+	background:url("user.png")no-repeat left top;
+	background-size:27px 35px;
+	display:none;
+	
+}
+#password{
+	margin-top:20px;
+	background:url("password.png")no-repeat left top;
+	background-size:27px 35px;
+	display:none;	
+}
+	#valid_ouptut_1{
+		position:absolute;
+		top:185px;
+		left:110px;
+		color:blue;
+		font-size:14px;
+	}
+	#valid_ouptut_2{
+		position:absolute;
+		top:185px;
+		left:80px;
+		color:blue;
+		font-size:14px;
+	}
+
+input{
+	text-align:center;
+	margin-left:5px;
+	margin-top:12px;
+	padding-right:22px;
+	padding-left:6px;
+	font-family:"Century Gothic";
+	border:1px solid #800000;
+	Height:35px;
+	border-radius:3px;
+	width:300px;
+	padding-left:30px;
+}
+button:active{
+
+	background:linear-gradient(#880000,#500000,#880000);
+	color:white;
+	border:3px solid #980000;
+	font-family:"BankGothic Lt BT";
+
+
+}
+button{
+	position:absolute;
+	top:215px;
+	left:145px;
+	Height:35px;
+	background:white;
+	border-radius:20px;
+	color:black;
+	border:2px solid blue;
+	font-family:"BankGothic Lt BT";
+	width:35px;
+	font-size:19px;
+}
+
+#admin{
+	background:url("../pictures/welcome_head.png") no-repeat;
+	background-size:312px;
+	color:blue;
+	text-align:center;
+	padding:1px;
+	width:310px;
+}
+#border{
+	border:6px solid blue;
+	width:312px;
+	border-radius:5px;
+	Height:270px;
+}
+#position{
+	position:absolute;
+	top:180px;
+	left:530px;
+	z-index:-1;
+	background:white;
+}
+
+
+	
+	
+.badge_pic{
+	width:100px;
+	height:100px;
+	border-top:none;
+	border-radius:70px;
+	border-left:6px solid #800000;
+	border-right:6px solid #800000;
+	position:absolute;
+	left:636px;
+	top:90px;
+	display:none;
+}
+
+.background{
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:230;
+	left:645;
+	z-index:-1;
+}
+#welcome_note{
+	color:#000066;
+	font-family:"BankGothic Lt BT",arial,san serif;
+	text-align:center;
+	font-size:28px;
+	border-top:3px solid blue;
+	border-bottom:3px solid blue;
+	height:136px;
+	padding-top:25px;
+	background-size:100px 100px;
+}
+
+
+
+

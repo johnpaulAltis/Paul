@@ -1,0 +1,197 @@
+
+
+.lname{
+
+	border-left:none;
+	border-top:none;
+	border-bottom:none;
+	}
+	
+.fname{
+	border-right:1px solid blue;
+	border-left:none;
+	border-top:none;
+	border-bottom:none;
+	}
+
+.initial{
+
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	border-bottom:none;
+	width:70px;
+	}
+.address{
+	border-left:none;
+	border-right:none;
+	border-top:2px solid blue;
+	border-bottom:none;
+	width:360px;
+	text-align:center;
+}	
+	
+	
+#name{
+	border:2px solid blue;
+	padding-bottom:3px;
+	width:360px;
+	padding-left:2px;
+	padding-right:2px;
+	margin-left:20px;
+	margin-top:20px;
+}
+	
+input{
+	margin-top:4px;
+	padding-left:6px;
+	font-family:"Century Gothic";
+	border:1px solid blue;
+	Height:35px;
+	}
+	
+.pic_1{
+	width:20px;
+	height:25px;
+	border-radius:12px;
+	position:absolute;
+	left:419px;
+	top:384px;
+}	
+.num_kids{
+	width:330px;
+	
+}
+.num_kids_1{
+	width:330px;
+	display:none;
+}
+.num_kids_2{
+	width:330px;
+	display:none;
+	
+}
+.num_kids_3{
+	width:330px;
+	display:none;
+	
+}
+#kid{
+	margin-top:30px;
+	border:2px solid blue;
+	width:360px;
+	height:40px;
+	padding-bottom:3px;
+	padding-left:3px;
+	margin-left:20px;
+	background-size:450px 100px;
+	}
+.phone_number{
+	width:175px;
+	text-align:center;
+	border-left:none;
+	border-top:none;
+	border-bottom:none;
+	padding-right:4px;
+}
+#key{
+	width:175px;
+	text-align:center;
+	margin-left:2px;
+	text-align:center;
+	border:none;
+	}
+.submit:active{
+	
+	background:linear-gradient(#880000,#500000,#880000);
+	color:white;
+
+}
+.submit{
+	Height:27px;
+	background:white;
+	border-radius:6px;
+	color:black;
+	border:1px solid #980000;
+	font-family:"BankGothic Lt BT";
+	font-size:19px;
+	position:absolute;
+	top:466px;
+	left:265px;
+}
+
+
+
+
+
+
+#phone{	
+	width:360px;
+	border:2px solid blue;
+	padding-left:3px;
+	padding-bottom:3px;
+	margin-left:20px;
+	margin-top:30px;
+}
+a{
+	display:block;
+	width:13px;
+	height:20px;
+	background:url("../pictures/plus.png") no-repeat;
+	background-size:13px 20px; 
+	text-decoration:none;
+}
+
+#plus_1{
+	position:absolute;
+	top:303px;
+	left:364px;
+}
+#plus_2{
+	position:absolute;
+	top:344px;
+	left:364px;
+	display:none;
+}
+#plus_3{
+	position:absolute;
+	top:386px;
+	left:364px;
+	display:none;
+}
+h1{
+	margin-top:0px;
+	margin-left:35px;
+	font-family:"BankGothic Lt BT",arial,san serif;
+	position:absolute;
+	top:20px;
+	}
+#whole{
+		background:white;
+		border:3px solid  blue;
+		width:410px;
+		height:500px;
+		position:absolute;
+		left:440px;
+		top:0px;
+}
+#header{
+	background:linear-gradient(blue,green);
+	width:410px;
+	height:70px;
+	padding-top:0px;
+	padding-bottom:7px;
+	color:white;
+	border-bottom:3px solid blue;
+}
+
+#validate{
+	color:blue;
+	position:absolute;
+	top:154px;
+	left:255px;
+}
+#back{
+	text-decoration:none;
+	color:red;
+}
